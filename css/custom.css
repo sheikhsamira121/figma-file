@@ -1,0 +1,97 @@
+:root{
+--dark: black;
+--offwhite:#F5F5F5;
+--yellow:darkorange;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header seaction start */ 
+.shop h3 {
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    background-color:var(--offwhite)
+    
+    
+}
+.shop {
+    text-align: center;
+}
+.shop h3 span{
+    
+}
+/* header seaction end */
+
+    /* 2nd header start */
+.head p{
+    color: #F5F5F5;
+    background-color: var(--dark);
+    align-items: center;
+    text-align: center;
+
+}
+.navbar-brand img{
+    max-width: 156px; 
+}
+.navbar-nav{}
+.navbar-nav li{}
+.navbar-nav li a{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.navbar-nav li a :active
+.navbar-item li a :hover{
+     color: var(--yellow);
+}
+
+    /* 2nd header end */
+ 
+.btn img{
+    margin: 0;
+    padding: 0;
+    margin-right: auto;
+    box-sizing: border-box;
+}   
+
+body{
+
+}
+.back{
+    background-image: url(../images/back_pic1.png);
+    width: 1285px;
+    height:2050px;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+
+}  
+.align-items-center{
+    align-items: center;
+}
+ .back h4 {
+    text-align: center;
+    padding: 26px;
+    font-size: 12px;
+    font-weight: 800;
+} 
+.back img{
+    height: 50px;
+}
+.back h3{
+    padding: 0 0 20px;
+    text-align: left;
+    margin-bottom: 17px;
+}
+.back p{
+    text-align: left;
+    font-weight: 500;
+    width: 500px;
+    
+}
+.pic{
+    size: 50px;
+}
